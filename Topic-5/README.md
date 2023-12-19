@@ -10,6 +10,8 @@ git show <commit_id>
 
 Replace <commit_id> with the actual commit hash you want to inspect.
 
+Remember to replace placeholders like <commit_id> or specific dates with the actual values you're working with in your repository
+
 b) **Write the command to list all commits made by the author "JohnDoe" between "2023-01-01" and "2023-12-31".**
 
 To list commits made by the author "JohnDoe" between specific dates:
@@ -36,5 +38,3 @@ To undo changes introduced by a specific commit (assuming "abc123" is the commit
 git revert abc123
 ```
 This command creates a new commit that undoes the changes made by the specified commit.
-
-Remember to replace placeholders like <commit_id> or specific dates with the actual values you're working with in your repository
