@@ -4,10 +4,8 @@
 
 **a. Clone a remote git repository to your local machine.**
 
-```bash
-git clone <url>
-```
 
+<<<<<<< HEAD
 ```bash
 git checkout -b feature-branch
 ```
@@ -19,6 +17,8 @@ git add .
 git commit -m "Changes"
 ```
 
+=======
+>>>>>>> parent of f86f6ce (Topic 2: Some changes)
 
 **b. Fetch the latest changes from a remote repository and rebase your local branch on to the updated remote branch.**
 
