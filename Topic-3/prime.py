@@ -6,6 +6,6 @@ def is_prime(n):
             return False
     return True
 
-limit = 100
+limit = int(input())
 prime_numbers = [str(num) for num in range(2, limit + 1) if is_prime(num)]
 print(' '.join(prime_numbers))
