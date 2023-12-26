@@ -34,7 +34,6 @@ git push origin feature-branch:main
 git checkout new-branch
 ```
 
-
 ```bash
 git stash
 ```
