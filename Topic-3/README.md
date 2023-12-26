@@ -28,12 +28,9 @@ git rebase origin/main
 ```
 
 ```bash
-
+git push origin feature-branch
 ```
 
-```bash
-not needed
-```
 
 **b. Fetch the latest changes from a remote repository and rebase your local branch on to the updated remote branch.**
 
