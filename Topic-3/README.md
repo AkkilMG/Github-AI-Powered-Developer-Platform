@@ -11,6 +11,15 @@ git clone <url>
 ```bash
 git checkout -b feature-branch
 ```
+
+Make some changes
+
+```bash
+git add .
+git commit -m "Changes"
+```
+
+
 **b. Fetch the latest changes from a remote repository and rebase your local branch on to the updated remote branch.**
 
 
