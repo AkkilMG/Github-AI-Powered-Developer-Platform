@@ -32,7 +32,7 @@ git rebase --continue
 ```
 
 ```bash
-
+not needed
 ```
 
 **b. Fetch the latest changes from a remote repository and rebase your local branch on to the updated remote branch.**
