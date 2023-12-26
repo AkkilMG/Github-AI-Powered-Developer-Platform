@@ -28,7 +28,7 @@ git rebase origin/main
 ```
 
 ```bash
-
+git rebase --continue
 ```
 
 ```bash
