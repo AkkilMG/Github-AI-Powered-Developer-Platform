@@ -25,32 +25,17 @@ c) **Write the command to display the last five commits in the repository's hist
 To display the last five commits in the repository's history:
 
 ```bash
-git add .
-git commit -m "Source branch"
-git push
+git log -n 5
 ```
+
+This will show the latest 5 commits in the repository.
+
+d) **Write the command to undo the changes introduced by the commit with the ID "abc123".**
+
+To undo changes introduced by a specific commit (assuming "abc123" is the commit ID):
 
 ```bash
-git status
+git revert abc123
 ```
 
-```bash
-git log --oneline
-```
-
-```bash
-git checkout main
-```
-
-
-```bash
-git cherry-pick <hash>
-```
-
-```bash
-git cherry-pick <from hash>..<to hash>
-```
-
-```bash
-git cherry-pick --continue
-```
+This command creates a new commit that undoes the changes made by the specified commit.
