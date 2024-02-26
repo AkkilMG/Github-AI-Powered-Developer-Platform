@@ -30,11 +30,11 @@ git rebase origin/main
 ```
 
 ```bash
-git push origin feature-branch
+git merge feature-branch
 ```
 
 ```bash
-git merge feature-branch
+git push origin feature-branch
 ```
 
 ```bash
