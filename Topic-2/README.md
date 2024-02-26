@@ -6,7 +6,7 @@
 
 
 ```bash
-git branch feature-branch
+git branch -B feature-branch
 ```
 
 ```bash
