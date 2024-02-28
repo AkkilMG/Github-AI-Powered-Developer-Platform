@@ -1,4 +1,4 @@
-## Creating and Merging Branches
+## Creating and Merging Branches 
 
 <hr />
 
