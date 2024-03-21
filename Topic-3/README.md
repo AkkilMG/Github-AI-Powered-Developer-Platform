@@ -33,15 +33,11 @@ git rebase origin/main
 ```
 
 ```bash
+git checkout master
+```
+
+```bash
 git merge feature-branch
-```
-
-```bash
-git push origin feature-branch
-```
-
-```bash
-git pull origin feature-branch  
 ```
 
 ```bash
