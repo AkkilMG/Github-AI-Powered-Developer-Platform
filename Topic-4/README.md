@@ -3,7 +3,7 @@
 Write command to create light weight git tags named "v1.0" for a commit your local respository.
 
 ```bash
-git rag v1.0
+git tag v1.0
 ```
 
 ```bash
