@@ -6,11 +6,7 @@
 
 
 ```bash
-git branch -B feature-branch
-```
-
-```bash
-git checkout feature-branch
+git checkout -b feature-branch
 ```
 
 ```bash
@@ -20,10 +16,14 @@ git add .
 ```bash
 git commit -m "<message>"
 ```
-<!-- 
+
 ```bash
-git push origin feature-branch:main
-``` -->
+git checkout master
+```
+
+```bash
+git merge feature-branch
+```
 
 <hr />
 
